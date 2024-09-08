@@ -1,0 +1,14 @@
+<html  lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Crystal Ball Selection Menu</title>
+    </head>
+    <body>
+        <h1>Crystal Ball Selection Menu</h1>
+        <p>Choose a stock symbol to predict its future price.</p>
+        {% for ticker in tickers %}
+        <a href="/ticker/{{ ticker }}">{{ ticker }}</a><br>
+        {% endfor %}
+
+        <b>This is for entertainment and coding fun only, use at your own discretion and risk.  This is in no way a stock suggestion</b>
+    </body>

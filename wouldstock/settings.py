@@ -26,7 +26,7 @@ SECRET_KEY = os.getenv('DJANGOWOULDSEC')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['jtweed.pythonanywhere.com',]
+ALLOWED_HOSTS = ['jtweed.pythonanywhere.com','127.0.0.1']
 CSRF_TRUSTED_ORIGINS =  ['https://jtweed.pythonanywhere.com',]
 
 INTERNAL_IPS = [
